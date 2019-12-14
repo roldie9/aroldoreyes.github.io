@@ -1,4 +1,7 @@
 
+body {
+    background-image: url(../img/5-dots.png);
+}
 .clearfix::after {
     content: "";
     display: block;
@@ -8,7 +11,8 @@
 header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: white !important;
+    background-color: white;
+    max-width:100%;
 
 
 }
@@ -51,10 +55,6 @@ hr{
     text-align: right;
     text-decoration: none;
 
-}
-
-body {
-    background-image: url(../img/5-dots.png);
 }
 
 
@@ -122,7 +122,7 @@ body {
     text-align:center;
     margin: 20px;
     color:white;
-    
+
 }
 
 .contact {
