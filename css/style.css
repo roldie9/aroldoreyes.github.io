@@ -87,6 +87,44 @@ body {
     color:#4aaaa5
 }
 
+.portfolio{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin:auto;
+}
+
+.portfolio h2{
+    color:#4aaaa5;
+
+}
+
+.imgcontainer{
+    position:relative;
+    float:left;
+    padding: 10px;
+
+}
+
+.image{
+    height:300px;
+    width:300px;
+}
+
+.banner{
+    background: #4aaaa5;
+    height: 50px;
+    width:300px;
+    position:absolute;
+    top:70%;
+}
+
+.banner p{
+    text-align:center;
+    margin: 20px;
+    color:white;
+    
+}
+
 .contact {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
